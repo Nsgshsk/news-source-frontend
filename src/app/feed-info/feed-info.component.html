@@ -1,0 +1,13 @@
+<div class="col">
+  <div class="card" style="width: 25rem;">
+    <img src="{{articleInfo.image}}" class="card-img-top" alt="Article Thumbnail" onerror='this.style.display = "none"'>
+    <div class="card-body">
+      <h5 class="card-title">{{articleInfo.title}}</h5>
+      <div style="padding-bottom: 0%" class="card-body truncate">{{articleInfo.summary.trim()}}</div>
+      <a style="margin-top: 4%" class="btn btn-primary stretched-link" href="{{articleInfo.link}}">Read Article</a>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Published {{articleInfo.published}}</small>
+    </div>
+  </div>
+</div>
